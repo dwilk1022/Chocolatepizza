@@ -61,3 +61,8 @@ h1{
        padding:600px;
        display: block;
    }
+=======
+/* app style */
+img {
+  width: 100px;
+}
