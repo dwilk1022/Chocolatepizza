@@ -63,6 +63,237 @@ h1{
    }
 =======
 /* app style */
-img {
-  width: 100px;
+
+main {
+  width: 900px;
+  margin-left: auto;
+	margin-right: auto;
+}
+
+.header-left img {
+  width: 60px;
+  float: left;
+}
+
+.header-left div {
+  float: left;
+  display: block;
+}
+
+.logo-name {
+margin-top: 0px;
+margin-left: 10px;
+margin-bottom: 0px;
+}
+
+.header-left div h1 {
+  font-size: 35px;
+  font-family: 'Damion', cursive;
+}
+
+.header-left div h2 {
+  font-size: 10px;
+  font-family: 'PT Mono', monospace;
+  text-transform: uppercase;
+  color: grey;
+}
+
+#box:checked + #boxlabel {
+  text-decoration: line-through;
+}
+
+.header-right {
+  float: right;
+  margin-top: 20px;
+}
+
+#pad-space {
+  margin-left: 5px;
+}
+
+.header-img img{
+  width: 900px;
+  margin-top: 20px;
+}
+
+.above-left {
+  float: left;
+}
+
+.above-left div h1 {
+  font-family: 'Lalezar', cursive;
+  font-size: 45px;
+  margin: 0px
+}
+
+.above-left div h2 {
+  font-size: 12px;
+  font-family: 'PT Mono', monospace;
+  text-transform: uppercase;
+  margin-top: -10px;
+  color: grey;
+}
+
+
+.above-right {
+  float: right;
+  margin-top: 50px;
+}
+
+.above-right img{
+  width: 15px;
+  float: left;
+  margin-top: 13px;
+  margin-right: 10px;
+}
+
+.above-right p {
+  float: right;
+  font-family: 'PT Mono', monospace;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: grey;
+}
+
+.main-image img {
+  width: 900px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.content p {
+  text-indent: 40px;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-family: 'Crimson Text', serif;
+  color: grey;
+
+}
+
+.list {
+  float: left;
+  background-image: url("img/list-bg.png");
+  font-family: 'Sniglet', cursive;
+  color: grey;
+  line-height: 31px;
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  word-spacing: 3px;
+}
+
+.list ul {
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+.list-1 {
+  float: left;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.list-2 {
+  float: left;
+  margin-left: 140px;
+  font-size: 20px;
+}
+
+.removed  {
+  text-decoration: line-through;
+}
+
+.footer {
+  float: left;
+}
+
+.footer-section {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.about-image  {
+  margin-top: 10px;
+}
+
+.footer-name {
+  margin-top: 0px;
+}
+.footer h2 {
+  font-size: 16px;
+  margin-top: 0px;
+  line-height: 20px;
+  font-family: 'Crimson Text', serif;
+  color: grey;
+}
+
+.footer h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.footer-left {
+  float: left;
+  width: 650px;
+}
+
+.footer-about h2 {
+  font-size: 10px;
+}
+
+.footer-right {
+  float: right;
+  width: 250px;
+}
+
+.foot-right-img {
+  float:  right;
+}
+
+#button {
+  float: right;
+  width: 220px;
+  height: 60px;
+  background-color: #f44336;
+  padding: 15px 32px;
+  margin-top: 15px;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+}
+
+.foot {
+  margin-top: 120px;
+  clear: both;
+}
+
+.foot-left {
+  width: 420px;
+  float: left;
+  margin-top: 15px;
+}
+
+.foot-left img {
+  width: 400px;
+}
+
+.foot-middle {
+  display: inline-block;
+
+}
+.foot-right {
+ width: 420px;
+ float: right;
+ margin-top: 15px;
+}
+
+.foot-right img {
+  width: 400px;
+}
+
+.bottom p {
+  text-align: center;
+  color: grey;
+  margin-bottom: 40px;
 }
