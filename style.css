@@ -23,14 +23,19 @@ margin-bottom: 0px;
 }
 
 .header-left div h1 {
-  font-size: 30px;
+  font-size: 35px;
   font-family: 'Damion', cursive;
 }
 
 .header-left div h2 {
-  font-size: 15px;
+  font-size: 10px;
   font-family: 'PT Mono', monospace;
   text-transform: uppercase;
+  color: grey;
+}
+
+#box:checked + #boxlabel {
+  text-decoration: line-through;
 }
 
 .header-right {
@@ -99,6 +104,7 @@ margin-bottom: 0px;
   margin-bottom: 30px;
   font-family: 'Crimson Text', serif;
   color: grey;
+
 }
 
 .list {
@@ -132,4 +138,98 @@ margin-bottom: 0px;
 
 .removed  {
   text-decoration: line-through;
+}
+
+.footer {
+  float: left;
+}
+
+.footer-section {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.about-image  {
+  margin-top: 10px;
+}
+
+.footer-name {
+  margin-top: 0px;
+}
+.footer h2 {
+  font-size: 16px;
+  margin-top: 0px;
+  line-height: 20px;
+  font-family: 'Crimson Text', serif;
+  color: grey;
+}
+
+.footer h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.footer-left {
+  float: left;
+  width: 650px;
+}
+
+.footer-about h2 {
+  font-size: 10px;
+}
+
+.footer-right {
+  float: right;
+  width: 250px;
+}
+
+.foot-right-img {
+  float:  right;
+}
+
+#button {
+  float: right;
+  width: 220px;
+  height: 60px;
+  background-color: #f44336;
+  padding: 15px 32px;
+  margin-top: 15px;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+}
+
+.foot {
+  margin-top: 120px;
+  clear: both;
+}
+
+.foot-left {
+  width: 420px;
+  float: left;
+  margin-top: 15px;
+}
+
+.foot-left img {
+  width: 400px;
+}
+
+.foot-middle {
+  display: inline-block;
+
+}
+.foot-right {
+ width: 420px;
+ float: right;
+ margin-top: 15px;
+}
+
+.foot-right img {
+  width: 400px;
+}
+
+.bottom p {
+  text-align: center;
+  color: grey;
+  margin-bottom: 40px;
 }
